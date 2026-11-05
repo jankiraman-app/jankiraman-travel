@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Travel Companion | travel.jankiraman.com.au</title>
+<meta name="description" content="Travel Companion is a trip planner in development: a checklist, flight and hotel options, a map and an itinerary in one place.">
+<style>
+  :root { --ink:#0b2f3c; --muted:#4f656e; --brand:#0b6b6b; --accent:#f5a623; --line:#dbe4e7; --bg:#f4f7f8; --card:#ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#e8f1f3; --muted:#a3b6be; --brand:#2aa6a6; --line:#2b4650; --bg:#0f1f25; --card:#16303a; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header, main, footer { max-width:880px; margin:0 auto; padding:0 16px; }
+  header { padding-top:28px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .brand { font-weight:800; font-size:18px; letter-spacing:.2px; }
+  .badge { font-size:12px; font-weight:700; padding:4px 10px; border-radius:999px; background:rgba(245,166,35,.18); border:1px solid var(--accent); }
+  .hero { padding:36px 0 20px; }
+  h1 { font-size:clamp(28px,5vw,42px); line-height:1.15; margin:0 0 12px; }
+  .lead { font-size:18px; color:var(--muted); max-width:640px; margin:0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; margin:26px 0; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; }
+  .card h2 { font-size:17px; margin:0 0 6px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .note { background:var(--card); border:1px solid var(--line); border-left:4px solid var(--brand); border-radius:10px; padding:14px 16px; margin:8px 0 26px; font-size:15px; }
+  .note b { color:var(--ink); }
+  footer { padding:18px 16px 40px; color:var(--muted); font-size:14px; border-top:1px solid var(--line); }
+  a { color:var(--brand); }
+  .links { display:flex; gap:16px; flex-wrap:wrap; margin-bottom:6px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Travel Companion</div>
+  <span class="badge">In development</span>
+</header>
+<main>
+  <section class="hero">
+    <h1>Plan the whole trip in one place.</h1>
+    <p class="lead">Travel Companion is a trip planner we are building for travellers who want clear choices instead of endless lists: a checklist of what to sort, flight and hotel options, a map, and a day-by-day itinerary.</p>
+  </section>
+
+  <section class="grid" aria-label="What Travel Companion does">
+    <article class="card"><h2>A checklist that fits your trip</h2><p>Flights, stay, visas, insurance, an eSIM and more, built from your destination, dates and travellers.</p></article>
+    <article class="card"><h2>Hotel and flight options</h2><p>A short, curated set of options with the details that matter, then a link to our booking partners to finish the booking.</p></article>
+    <article class="card"><h2>A map and an itinerary</h2><p>See hotels on a map and plan your days around the places you actually want to visit.</p></article>
+  </section>
+
+  <p class="note"><b>Affiliate disclosure.</b> Some links on Travel Companion go to booking partners. If you book through them we may earn a commission, at no extra cost to you. We do not sell travel ourselves and bookings are completed on the partner's website.</p>
+</main>
+<footer>
+  <div class="links">
+    <a href="https://jankiraman.com.au/">jankiraman.com.au</a>
+    <a href="mailto:hello@jankiraman.com.au">hello@jankiraman.com.au</a>
+  </div>
+  <div>&copy; 2026 Jankiraman. Travel Companion is in development and is not yet open to the public.</div>
+</footer>
+</body>
+</html>
