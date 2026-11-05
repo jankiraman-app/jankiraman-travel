@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Book link test | Travel Companion</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b6b6b">
+<style>
+  body { margin:0; padding:20px; font:16px/1.5 system-ui,-apple-system,sans-serif; color:#0b2f3c; background:#f4f7f8; }
+  h1 { font-size:20px; margin:0 0 6px; }
+  .card { background:#fff; border:1px solid #dbe4e7; border-radius:12px; padding:14px; margin:14px 0; }
+  a.book { display:block; text-align:center; text-decoration:none; font-weight:700; background:#0b6b6b; color:#fff; padding:12px; border-radius:10px; margin-top:10px; }
+  .muted { color:#5b6f78; font-size:14px; }
+  ol { padding-left:20px; }
+</style>
+</head>
+<body>
+<h1>Book link test</h1>
+<p class="muted">Test page only, not linked from the site. Hotel Chinzanso Tokyo, 12 to 14 Nov 2026, 2 adults.</p>
+
+<div class="card">
+  <b>Book on Expedia</b>
+  <a class="book" href="https://expedia.com/affiliate?siteid=1&amp;landingPage=https%3A%2F%2Fwww.expedia.com%2FTokyo-Hotels-Hotel-Chinzanso-Tokyo.h5394230.Hotel-Information%3Fchkin%3D2026-11-12%26chkout%3D2026-11-14%26rm1%3Da2%26regionId%3D3593%26destination%3DTokyo%252C%2BTokyo%2BPrefecture%252C%2BJapan%26destType%3DMARKET%26latLong%3D35.67686%252C139.763894%26sort%3DRECOMMENDED%26top_cur%3DUSD%26categorySearch%3Dany_option&amp;camref=1011l6uMTx&amp;creativeref=1100l68075&amp;adref=PZfykPPl_7">Book (test link)</a>
+</div>
+
+<div class="card">
+<b>What to check</b>
+<ol>
+  <li>Install the page to your home screen (Android: Chrome menu, Install app. iPhone: Share, Add to Home Screen).</li>
+  <li>Open it from the home-screen icon, not from the browser.</li>
+  <li>Tap Book on Expedia and tell me what opens.</li>
+</ol>
+<p class="muted">Expected on Android: a window over the app with a close (X) and a three-dot menu. Expected on iPhone: Safari's view, with Done.</p>
+</div>
+
+<script>
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js', { scope: './' });
+</script>
+</body>
+</html>
